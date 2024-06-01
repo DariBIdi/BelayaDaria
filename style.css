@@ -93,6 +93,7 @@ h1 , h2 {
     color: rgb(76, 19, 220);
     font-family: Undertale;
     font-weight: 400;
+    margin-top: 20px ;
 }
 
 .banner {
@@ -121,4 +122,12 @@ h1 , h2 {
     color: rgb(76, 19, 220);
     font-family: Undertale;
     font-weight: 400;
+}
+
+.description {
+    margin-top: 5px;
+}
+
+.feez { 
+    margin-top: 5px;
 }
