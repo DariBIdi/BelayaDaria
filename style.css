@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Oswald";
+    src: url(fonts/Oswald-Light.ttf);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(fonts/Oswald-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(fonts/Oswald-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Undertale";
+    src: url(fonts/Undertale-Battle-Font.ttf);
+    font-weight: 400;
+}
+
+html,body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: rgb(77, 17, 134);
+}
+
+h1 , h2 { 
+    color: rgb(211, 25, 155);
+    font-size: 60px;
+}
+
+.paragraph {
+    color: rgb(31, 134, 19);
+    font-size: 30px;
+}
+
+.image {
+    width: 100%; 
+    height: 300px;
+    border-radius: 20px;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+    border-radius: 20px;
+}
+
+.image:hover img {
+    scale: 1.05;
+}
+/* div {
+    width: 400px; 
+    height: 500px;
+    background-color: rgb(144, 28, 36);
+    margin: auto;
+} */
+.page {
+    background-color: rgb(118, 255, 129);
+    border: 5px solid rgb(75, 216, 87);
+    border-radius: 20px;
+    min-height: 100%;
+}
+.films {
+    display: flex;
+}
+
+.film {
+    width: 400px;
+    height: a;
+    background-color: rgb(152, 204, 234);
+    border: 5px solid rgb(153, 171, 255);
+    border-radius: 20px;
+    margin: 50px auto ;
+    padding: 20px;
+}
+
+.film h3 {
+    font-size: 20px ;
+    color: rgb(76, 19, 220);
+    font-family: Undertale;
+    font-weight: 400;
+}
+
+.banner {
+    background-color: rgb(180, 210, 255);
+    border: 5px solid rgb(134, 142, 253);
+    width: calc(100% - 100px);
+    height: 540px;
+    top:10px;
+    left:200px;
+    border-radius:20px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 150px ;
+    color: rgb(76, 19, 220);
+    font-family: Undertale;
+    font-weight: 400;
+}
+
+.banner h3 {
+    color: rgb(76, 19, 220);
+    font-family: Undertale;
+    font-weight: 400;
+}

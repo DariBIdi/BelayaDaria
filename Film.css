@@ -1,0 +1,75 @@
+
+@font-face {
+    font-family: "Undertale";
+    src: url(fonts/Undertale-Battle-Font.ttf);
+    font-weight: 400;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+}
+.film {
+    display: flex;
+    width:calc(100% - 100px );
+    padding: 30px 40px ;
+}
+
+.film h3 {
+    font-size: 20px ;
+    color: rgb(76, 19, 220);
+    font-family: Undertale;
+    font-weight: 400;
+}
+
+.film img {
+    width: 800px;
+    height: 750px;
+    object-fit: cover;
+    padding: 31px 1px;
+}
+
+.info {
+    padding: 1px 20px ;
+}
+
+.info p {
+    font-family: Undertale;
+    font-size: 17px;
+    width: 60%;
+}
+
+.info h3 {
+    font-size: 60px;
+    margin: 30px 30px;
+    font-family: Undertale;
+}
+
+.image {
+    width: 50%;
+}
+
+.swiper {
+    margin-left: 0;
+    width:  100%;
+}
+
+.swiper-slide img{
+    
+    object-fit: cover;
+}
+
+.back img{
+    width: 30px;
+    height: 30px;
+    margin: 30px 30px;
+}
+
+.page {
+    background-color: rgb(180, 210, 255);
+    border: 5px solid rgb(134, 142, 253);
+    min-height: 100%;
+    border-radius: 20px;
+}

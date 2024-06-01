@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <title> оно следит за вами </title>
+        <meta name="description" content=" анекдот ">
+        <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="Film.css">
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!-- <script src="script.js"></script> -->
+    </head>
+    <body>
+        <div class="page">
+            <a class="back" href="index.html">
+                <img src="images/c.svg">
+            </a>
+
+            <div class="film"> 
+                <div class="image">
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                            <img class="image" src="images/скетч1.png">
+                            </div>
+                            <div class="swiper-slide">
+                            <img class="image" src="images/скетч2.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="image" src="images/скетч3.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="image" src="images/скетч4.png">
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="info">
+                    <h3>3D art</h3>
+                
+                    <p class="description"> Арт в 3D версии в программе Till Brash </div>
+    </div>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+        </script>
+        
+</body>
+</html>

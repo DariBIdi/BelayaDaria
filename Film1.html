@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <title> мы плагиаторы  </title>
+        <meta name="description" content=" анекдот ">
+        <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>  
+        <link rel="stylesheet" href="Film.css">
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!-- <script src="script.js"></script> -->
+    </head>
+    <body>
+        <div class="page">
+            <a class="back" href="index.html">
+                <img src="images/c.svg">
+            </a>
+
+            <div class="film"> 
+                <div class="image">
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                            <img class="image" src="images/лор1.jpeg">
+                            </div>
+                            <div class="swiper-slide">
+                            <img class="image" src="images/лор2.jpeg">
+                            </div>
+                            <div class="swiper-slide">
+                            <img class="image" src="images/лор3.jpeg">
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="info">
+                    <h3> Undertale : глава храбрость </h3>
+                    <p class="description"> Интересен лор игры ? Здорово ! Лично у меня на его изучение ушло лет 5 :О так ещё большая часть на английском  </p>
+                </div>
+            
+        </div>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                // Optional parameters
+    
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+    
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+            </script>
+        
+    </body>
+</html>
