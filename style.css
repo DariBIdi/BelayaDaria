@@ -69,8 +69,8 @@ h1 , h2 {
     margin: auto;
 } */
 .page {
-    background-color: rgb(118, 255, 129);
-    border: 5px solid rgb(75, 216, 87);
+    background-color: rgb(224, 173, 236);
+    border: 5px solid rgb(166, 43, 194);
     border-radius: 20px;
     min-height: 100%;
 }
@@ -81,8 +81,8 @@ h1 , h2 {
 .film {
     width: 400px;
     height: a;
-    background-color: rgb(152, 204, 234);
-    border: 5px solid rgb(153, 171, 255);
+    background-color: rgb(174, 152, 234);
+    border: 5px solid rgb(197, 111, 255);
     border-radius: 20px;
     margin: 50px auto ;
     padding: 20px;
@@ -97,8 +97,8 @@ h1 , h2 {
 }
 
 .banner {
-    background-color: rgb(180, 210, 255);
-    border: 5px solid rgb(134, 142, 253);
+    background-color: rgb(181, 180, 255);
+    border: 5px solid rgb(166, 134, 253);
     width: calc(100% - 100px);
     height: 540px;
     top:10px;
